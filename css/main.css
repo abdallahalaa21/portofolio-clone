@@ -8,7 +8,7 @@
 
 .hero {
     height: 700px;
-    background: url(./img/hero-bg.jpg);
+    background: url(../img/hero-bg.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
