@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero {
+    height: 700px;
+    background: url(/img/hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+.hero .container .text {
+    max-width: 75%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    vertical-align: middle;
+    padding-top: 17em;
+}
+
+.hero .container .text h2 {
+    font-size: 60px;
+    margin: auto;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    width: 90%;
+}
+
+.hero .container .text button {
+    margin-top: 50px;
+    padding: 0 50px;
+    border: 2px solid white;
+    line-height: 55px;
+    background: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero .container .text button:hover {
+    background: #2ECC71;
+    border-color: #2ECC71;
+}
+
+.nav {
+    height: 70px;
+    background-color: #252E30;
+    color: white;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+
+}
+
+.nav .container .logo {
+    float: left;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 17px;
+}
+
+.nav .container .logo #st {
+    background-color: #4B5456;
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+
+.nav .container .logo #rd {
+    color: #2ECC71;
+}
+
+.nav .container .list {
+    float: right;
+    margin-top: 20px;
+}
+
+.nav .container .list li {
+    text-decoration: none;
+    display: inline;
+    color: white;
+}
+
+.nav .container .list li a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nav .container .list li a:hover {
+    color: #2ECC71;
+}
+
+.home {
+    padding: 80px;
+    color: #566366;
+    overflow: hidden;
+}
+
+.home .container .content {
+    width: 30%;
+    float: left;
+    margin-right: 3%;
+}
+
+.home .container .content h3 {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.home .container .content p {
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.clear {
+    clear: both;
+}
+
+.aboutme {
+    background-color: #F2F2F1;
+    overflow: hidden;
+    color: #566366;
+}
+
+.aboutme img {
+    max-width: 40%;
+    float: left;
+    height: 100%;
+}
+
+.aboutme .content {
+    float: left;
+    max-width: 60%;
+    padding: 80px 60px 80px 80px;
+}
+
+.aboutme .content h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.aboutme .content p {
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.aboutme .content .subjects div {
+    max-width: 50%;
+    padding: 0 10px;
+    float: left;
+    overflow: hidden;
+}
+
+.aboutme .content .subjects h4 {
+    font-size: 22px;
+    line-height: 24px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.aboutme .content .subjects h4 span {
+    color: #2ECC91;
+    margin-right: 15px;
+}
+
+.aboutme .content .subjects p {
+    margin-left: 45px;
+    line-height: 24px;
+    font-size: 18px;
+}
