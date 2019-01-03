@@ -1,13 +1,14 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
 
 .hero {
     height: 700px;
-    background: url(/img/hero-bg.jpg);
+    background: url(./img/hero-bg.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -57,6 +58,7 @@
     height: 70px;
     background-color: #252E30;
     color: white;
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     overflow: hidden;
