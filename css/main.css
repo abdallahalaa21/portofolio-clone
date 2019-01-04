@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -62,6 +62,7 @@
     position: sticky;
     top: 0;
     overflow: hidden;
+    z-index: 1;
 
 }
 
@@ -187,4 +188,237 @@
     margin-left: 45px;
     line-height: 24px;
     font-size: 18px;
+}
+
+.skills {
+    padding: 60px;
+}
+
+.skills .container .text {
+    float: left;
+    max-width: 50%;
+    padding-bottom: 60px;
+}
+
+.skills .container .text h3 {
+    color: #566366;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 33px;
+}
+
+.skills .container .text p {
+    color: #919191;
+    line-height: 24px;
+    padding: 20px 0;
+}
+
+.skills .container .text button {
+    color: #2ECC71;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 20px;
+    border: 1px solid #2ECC71;
+    background-color: white;
+
+}
+
+.skills .container .text button:hover {
+    background-color: #2ECC71;
+    color: white;
+}
+
+.skills .container .bar {
+    float: left;
+    width: 50%;
+}
+
+.skills .container .bar p {
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+.skills .container .bar .barcont {
+    width: 100%;
+    background-color: #ddd;
+
+}
+
+.skills .container .bar .barcont .barskills {
+    text-align: center;
+    color: white;
+    background-color: #2ECC71;
+}
+
+.skills .container .bar .barcont .photo {
+    width: 90%;
+}
+
+.skills .container .bar .barcont .illus {
+    width: 80%;
+}
+
+.skills .container .bar .barcont .html {
+    width: 90%;
+}
+
+.skills .container .bar .barcont .php {
+    width: 70%;
+}
+
+.resume {
+    background-color: #F2F2F1;
+    padding: 60px;
+    text-align: center;
+}
+
+.resume .container h3 {
+    font-size: 30px;
+    line-height: 33px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: #566366;
+}
+
+.resume .container p {
+    color: #919191;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.resume .container button {
+    color: #2ECC71;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 20px;
+    border: 1px solid #2ECC71;
+    background-color: #F2F2F1;
+
+}
+
+.resume .container button:hover {
+    background-color: #2ECC71;
+    color: white;
+}
+
+.education {
+    padding: 60px;
+    overflow: hidden;
+}
+
+.conatiner .leftcontent {
+    float: left;
+    max-width: 50%;
+}
+
+.conatiner h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 33px;
+    color: #566366;
+    margin-bottom: 30px;
+}
+
+.conatiner .leftcontent p {
+    color: #949494;
+    margin-bottom: 30px;
+}
+
+.conatiner .rightcontent {
+    float: left;
+    max-width: 50%;
+}
+
+.conatiner .rightcontent h3 {
+    text-transform: uppercase;
+    font-size: 22px;
+    color: #566366;
+    padding-bottom: 10px;
+}
+
+.conatiner .rightcontent h4 {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #566366;
+    padding-bottom: 10px;
+}
+
+.conatiner .rightcontent p {
+    line-height: 24px;
+    color: #919191;
+    padding: 10px 30px 50px 0;
+}
+
+.experience {
+    padding: 60px;
+    overflow: hidden;
+    background-color: #F2F2F1;
+}
+
+.portfolio {
+    text-align: center;
+    padding: 80px 0;
+    overflow: hidden;
+
+}
+
+.portfolio .container h2 {
+    font-size: 30px;
+    color: #566366;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.portfolio .container p {
+    color: #919191;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.portfolio .container .gallary .pic {
+    width: 30%;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    margin: 1%;
+}
+
+.portfolio .container .gallary .pic img {
+    width: 100%;
+}
+
+
+.portfolio .container .gallary .content {
+    position: absolute;
+    background: #252e3094;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 10%;
+    display: none;
+}
+
+.portfolio .container .gallary .content p {
+    font-size: 20px;
+    color: #ffffff88;
+}
+
+.portfolio .container .gallary .content button {
+    font-size: 20px;
+    color: #ffffff88;
+    background: #252e3094;
+    padding: 7px;
+    text-transform: uppercase;
+    border: 1px solid #2ECC71;
+}
+
+.portfolio .container .gallary .content button:hover {
+    border-color: #ffffff88;
+}
+
+.portfolio .container .gallary .pic:hover .content {
+    display: inline;
+
 }
