@@ -6,17 +6,17 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
 .hero {
     height: 700px;
     background: url(../img/hero-bg.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-}
-
-.container {
-    width: 1170px;
-    margin: auto;
 }
 
 .hero .container .text {
@@ -198,8 +198,9 @@
 
 .skills .container .text {
     float: left;
-    max-width: 50%;
+    max-width: 48%;
     padding-bottom: 60px;
+    padding-right: 2%;
 }
 
 .skills .container .text h3 {
@@ -272,6 +273,7 @@
     background-color: #F2F2F1;
     padding: 80px;
     text-align: center;
+    overflow: hidden;
 }
 
 .resume .container h3 {
@@ -310,7 +312,8 @@
 
 .container .leftcontent {
     float: left;
-    max-width: 50%;
+    max-width: 48%;
+    margin-right: 2%;
 }
 
 .container h2 {
@@ -544,4 +547,154 @@
 .footer .social i:hover {
     color: black;
 
+}
+
+@media (max-width: 1199.98px) {
+
+    .container {
+        width: 960px;
+        margin: auto;
+    }
+
+    .home .container .content {
+        margin-right: 1% !important;
+    }
+
+    .hero .container .text h2 {
+        font-size: 40px;
+    }
+
+    .skills .container .bar {
+        width: 45% !important;
+    }
+
+    .aboutme img,
+    .aboutme .content {
+        float: none !important;
+        display: block;
+        margin: auto;
+    }
+
+    .container .rightcontent {
+        width: 45% !important;
+    }
+
+    .resume .container p {
+        width: 90% !important;
+    }
+
+    .aboutme .content {
+        width: 80% !important;
+    }
+
+    .aboutme .subjects div {
+        max-width: 100% !important;
+    }
+
+    .contactus .container .text,
+    .contactus .container form {
+        width: 45% !important;
+        padding: 1%;
+
+    }
+
+
+}
+
+@media (max-width: 991.98px) {
+    .container {
+        width: 760px;
+        margin: auto;
+    }
+   
+
+    .home {
+        margin: auto;
+        text-align: center;
+    }
+
+    .home .content {
+        width: 90% !important;
+        margin: auto;
+        padding: 10px;
+    }
+    .hero .container .text h2 {
+        font-size: 35px;
+    }
+
+    .nav {
+        text-align: center !important;
+        height: auto;
+    }
+
+    .nav .logo {
+        float: none !important;
+    }
+    
+
+    .skills .container .bar {
+        width: 40% !important;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .container {
+        width: 570px;
+        margin: auto;
+    }
+
+    .hero .container .text h2 {
+        font-size: 25px;
+    }
+
+    .aboutme .content{
+        max-width: 80% !important;
+    }
+    .skills {
+        text-align: center;
+        overflow: hidden;
+
+    }
+
+    .skills .container .text,
+    .skills .container .bar {
+        float: left !important;
+        width: 80% !important;
+        margin: auto;
+    }
+
+    .container .leftcontent,
+    .rightcontent {
+        float: none !important;
+        width: 90% !important;
+        margin-right: 0;
+    }
+
+    .portfolio .container .gallary .pic {
+        width: 48% !important;
+        position: relative;
+        overflow: hidden;
+        float: left;
+        margin: 1%;
+    }
+
+    .contactus {
+        text-align: center !important;
+    }
+
+    .contactus .container .text,
+    .contactus .container form {
+        margin: auto !important;
+        float: none !important;
+        width: 100% !important;
+    }
+}
+
+
+@media (max-width: 575.98px) {
+    .container {
+        width: 400px;
+        margin: auto;
+    }
+    
 }
