@@ -557,7 +557,7 @@
     }
 
     .home .container .content {
-        margin-right: 1% !important;
+        margin-right:0 !important;
     }
 
     .hero .container .text h2 {
@@ -611,12 +611,13 @@
     .home {
         margin: auto;
         text-align: center;
+        padding: 80px 0;
     }
 
     .home .content {
         width: 90% !important;
         float: none !important;
-        margin: auto;
+        margin: auto ;
         padding: 10px;
     }
 
@@ -633,13 +634,16 @@
         height: auto;
     }
 
-    .nav .logo {
+    .nav .logo, .nav .list {
         float: none !important;
     }
     
 
     .skills .container .bar {
         width: 40% !important;
+    }
+    .resume, .contactus{
+        padding: 80px 0;
     }
 }
 
@@ -701,6 +705,9 @@
         float: none !important;
         width: 100% !important;
     }
+    .skills,.education,.experience{
+        padding: 80px 0;
+    }
 }
 
 
@@ -708,6 +715,9 @@
     .container {
         width: 400px;
         margin: auto;
+    }
+    .aboutme .content{
+        padding: 80px 0;
     }
     
 }
