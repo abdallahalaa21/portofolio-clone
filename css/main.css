@@ -579,9 +579,9 @@
         width: 45% !important;
     }
 
-    .resume .container p {
+    /* .resume .container p {
         width: 90% !important;
-    }
+    } */
 
     .aboutme .content {
         width: 80% !important;
@@ -615,8 +615,14 @@
 
     .home .content {
         width: 90% !important;
+        float: none !important;
         margin: auto;
         padding: 10px;
+    }
+
+    .aboutme .content{
+        max-width: 90% !important;
+        margin: auto;
     }
     .hero .container .text h2 {
         font-size: 35px;
@@ -647,9 +653,6 @@
         font-size: 25px;
     }
 
-    .aboutme .content{
-        max-width: 80% !important;
-    }
     .skills {
         text-align: center;
         overflow: hidden;
@@ -658,16 +661,26 @@
 
     .skills .container .text,
     .skills .container .bar {
-        float: left !important;
-        width: 80% !important;
+        float: none !important;
+        max-width: 90% !important;
         margin: auto;
     }
+    .skills .container .bar {
+        width: 90% !important;
+
+    }
+
 
     .container .leftcontent,
     .rightcontent {
         float: none !important;
-        width: 90% !important;
+        max-width: 90% !important;
         margin-right: 0;
+        margin: auto;
+    }
+
+    .container .rightcontent{
+        width: 90% !important;
     }
 
     .portfolio .container .gallary .pic {
