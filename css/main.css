@@ -557,7 +557,7 @@
     }
 
     .home .container .content {
-        margin-right:0 !important;
+        margin-right: 0 !important;
     }
 
     .hero .container .text h2 {
@@ -579,9 +579,9 @@
         width: 45% !important;
     }
 
-    /* .resume .container p {
+    .resume .container p {
         width: 90% !important;
-    } */
+    }
 
     .aboutme .content {
         width: 80% !important;
@@ -606,7 +606,7 @@
         width: 760px;
         margin: auto;
     }
-   
+
 
     .home {
         margin: auto;
@@ -617,14 +617,15 @@
     .home .content {
         width: 90% !important;
         float: none !important;
-        margin: auto ;
+        margin: auto;
         padding: 10px;
     }
 
-    .aboutme .content{
+    .aboutme .content {
         max-width: 90% !important;
         margin: auto;
     }
+
     .hero .container .text h2 {
         font-size: 35px;
     }
@@ -634,16 +635,24 @@
         height: auto;
     }
 
-    .nav .logo, .nav .list {
+    .nav .logo,
+    .nav .list {
         float: none !important;
     }
-    
+
 
     .skills .container .bar {
         width: 40% !important;
     }
-    .resume, .contactus{
-        padding: 80px 0;
+
+    .resume,
+    .contactus {
+        padding: 80px 40px;
+    }
+
+    .education,
+    .experience {
+        padding: 80px 40px;
     }
 }
 
@@ -669,6 +678,7 @@
         max-width: 90% !important;
         margin: auto;
     }
+
     .skills .container .bar {
         width: 90% !important;
 
@@ -683,7 +693,7 @@
         margin: auto;
     }
 
-    .container .rightcontent{
+    .container .rightcontent {
         width: 90% !important;
     }
 
@@ -705,8 +715,15 @@
         float: none !important;
         width: 100% !important;
     }
-    .skills,.education,.experience{
+
+    .skills,
+    .education,
+    .experience {
         padding: 80px 0;
+    }
+
+    .contactus {
+        padding: 80px 5px;
     }
 }
 
@@ -716,8 +733,27 @@
         width: 400px;
         margin: auto;
     }
-    .aboutme .content{
+
+    .aboutme .content,
+    .contactus {
         padding: 80px 0;
     }
-    
+
+}
+
+@media (max-width: 399.98px) {
+    .container {
+        width: 95%;
+    }
+
+    .nav {
+        position: unset;
+    }
+
+    .portfolio .container .gallary .pic {
+        width: 90% !important;
+        overflow: hidden;
+        float: none !important;
+        margin: 1%;
+    }
 }
